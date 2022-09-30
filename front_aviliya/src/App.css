@@ -1,0 +1,399 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@import url("//fonts.googleapis.com/icon?family=Material+Icons");
+.formNew{
+  border-radius: 9px;
+  height: 2cm;
+  border-color: black;
+ font-weight: 100;
+ font-size : clamp(1rem, 1vw, 50rem);
+ padding-left: 10px;
+
+}
+
+
+.formNew:focus {
+  outline-color: #98652A;
+font-weight: 400;
+font-size : clamp(1rem, 1vw, 50rem);
+}
+
+.formNew::-webkit-input-placeholder { 
+  /* font-family: FontAwesome; */
+  font-weight: 100;
+  vertical-align: top;
+  font-size : clamp(1.8rem, 1.5vw, 50rem);
+  color: #98652A;
+
+  }
+label {
+  display: block;
+}
+ 
+.ICON {
+   display: inline;
+}
+
+
+.navbar {
+  /* padding-top: -50px; */
+  background-color:#fdb159;
+  height: auto;
+}
+
+.button-solid {
+ border: none;
+  background-color:#fdb159  ;
+  color: white;
+}
+
+.button-confirm {
+  border: none;
+   background-color:white ;
+   color: white;
+ }
+.button-confirm:focus{
+  border: none;
+
+background-position: 0 -15px;
+
+}
+
+
+.button-solid:focus::after {
+  display:flex;
+  clear:both;
+  content : "";
+  position: relative;
+  height  : 1px;
+  width   : 50px;  
+  border-bottom: 0.1cm solid #98652A ;
+  border-radius: 7px;
+  /* margin:0 auto;
+  padding:4px 0px; */
+  padding-left: 60px;
+
+}
+
+
+input[type=search] {
+  background-color: #f7cd9c;
+  width: 65%;
+}
+
+.mainLoginInput{
+padding-left: 5%;
+  height: 33px;
+  padding: 8px;
+  font-size : clamp(0.8rem, 1.2vw, 5rem);
+  margin: 1%;
+  border-style: hidden;
+  border-radius: 0.3cm;
+ 
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+vertical-align: top;
+padding-left: 5%;
+padding-top: 5%;
+font-size : clamp(0.8rem, 1.2vw, 10rem);
+color: #98652A;
+
+}
+
+
+
+
+.iconLog{
+  padding-left: 10px;
+}
+
+.labeel {
+  padding-bottom: 8px;
+  padding-left: 10px;
+  font-family: inherit;
+  font-size : clamp(1.2rem, 1vw, 50rem);
+}
+.enter {
+  padding-bottom: 20px;
+}
+
+.newWithUs {
+  font-size : clamp(1rem, 0.8vw, 50rem);
+  padding-left: clamp(0vw,3vw,50rem);
+}
+
+.inp {
+  border-radius: 7px;
+  height: 1.2cm;
+  font-size : clamp(1.2rem, 1.1vw, 50rem);
+  padding-left: 0.5cm;
+
+}
+
+
+.inp:focus {
+  outline-color: #fdb159;
+  font-weight: 30;
+  font-size : clamp(1rem, 1vw, 50rem);
+} 
+
+
+  
+  .image-upload>input {
+    display: none;
+  }
+
+ 
+
+/* .App {
+   font-family: sans-serif; 
+} */
+
+ul {
+  margin: 0;
+}
+
+
+
+  .inpFr {
+    border-radius: 7px;
+    height: 1.5cm;
+    font-size: 25px;
+    width:10cm;
+    padding-left: 0.5cm;
+  }
+  .inpFr:focus {
+    outline-color: #fdb159;
+    font-size: 27px;
+    } 
+
+  
+/*PC */
+
+    @media screen and (min-width:1600px) {
+      .ka {
+        font-size: 22px;
+        padding-left: 37%;
+        padding-top: 1%;
+        color:#98652A
+      }
+    }
+    
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px 
+    /*Tablette 
+    @media screen and (max-width: 600px) {
+      .ka {
+        font-size: 17px;
+        padding-top: 50%;
+        color:#98652A
+
+      }
+    }
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    /*TELEPHONE */
+   /* @media screen and (max-width: 380px) {
+      .ka {
+        font-size: 150px;
+        padding-left: 200%;
+        line-height: 130%;
+        color:#98652A
+
+      }
+    } 
+    */
+
+    
+    .filterStars {
+      font-size : clamp(1rem, 1vw, 50rem);
+      font-weight: 400;
+    }
+.addNewHotelBtn{
+  font-size : clamp(0.8rem, 1vw, 50rem);
+
+}
+.flesh {
+  font-size : clamp(1.3rem, 1.7vw, 5rem);
+
+}
+.titreLog {
+  font-size : clamp(2rem, 2.5vw, 50rem);
+padding-left: clamp(0rem,13vw,50rem);
+}
+.titreDet{
+  font-size : clamp(1.9rem, 2.6vw, 50rem);
+  color: #98652A;
+  padding-bottom: 50,
+}
+
+.desc {
+  font-size : clamp(0.7rem, 1vw, 50rem);
+ }
+
+
+
+.location {
+  text-decoration: none;
+  font-size : clamp(0.7rem, 1vw, 50rem);
+
+}
+
+
+/*PC */
+
+@media screen and (max-width:3000px) {
+  /* .boxLoginImage{
+    width: 330%,
+
+  } */
+ .input-groupAd {
+  width: 197%;
+
+  }
+  .textarea {
+    height: 8cm;
+    width: 10cm;
+  }
+  .iconCloud{
+    color:#98652A;
+        font-size: 160px;
+        /* padding: 8px; */
+  }
+
+  .dropzone {
+    width: 10cm;
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed #000000;
+    border-radius: 40px;
+    background-color: #fafafa;
+    background-color: #ffffff;
+    color: #bdbdbd;
+    width: 470px;
+  font-size: 30;
+    margin-bottom: 20px;
+  }
+
+  /* .boxLogin{
+    width:1800px; 
+   }  */
+
+  .input-group {
+    width: 75%;
+  }
+
+.form {
+  padding-left: 2.2cm;
+}
+}
+
+@media screen and (max-width:680px) {
+  .input-groupAd {
+   width: 210%;
+
+   }
+   .input-group {
+    width: 42%;
+  }
+  .form{
+    padding-left: 0;
+  }
+   .textarea {
+     height: 6cm;
+   }
+   .iconCloud{
+     color:#98652A;
+     font-size: 80px;
+   }
+ 
+   .dropzone {
+     text-align: center;
+     padding: 10px;
+     border: 2px dashed #000000;
+     border-radius: 40px;
+     background-color: #fafafa;
+     background-color: #ffffff;
+     color: #bdbdbd;
+     width: 250px;
+   font-size: 30;
+     margin-bottom: 20px;
+   }
+ }
+
+
+ @media screen and (max-width:1482px) {
+
+  .input-groupAd {
+   width: 197%;
+       }
+   .textarea {
+     height: 8cm;
+    
+   }
+   .iconCloud{
+     color:#98652A;
+     font-size: 120px;
+   }
+ 
+   .dropzone {
+     text-align: center;
+     padding: 10px;
+     border: 2px dashed #000000;
+     border-radius: 40px;
+     background-color: #fafafa;
+     background-color: #ffffff;
+     color: #bdbdbd;
+     width: 280px;
+     font-size: 30;
+     margin-bottom: 20px;
+   }
+
+ 
+
+ }
+ 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/*TELEPHONE */
+@media screen and (max-width: 420px) {
+ .input-groupAd {
+  width: 140%;
+   }
+   .textarea {
+    height: 50vw;
+  }
+  .iconCloud{
+    color:#98652A;
+    font-size: 30px;
+  }
+
+  .dropzone {
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed #000000;
+    border-radius: 40px;
+    background-color: #fafafa;
+    background-color: #ffffff;
+    color: #bdbdbd;
+    width: 240px;
+   font-size: 30;
+    
+  }
+
+  .input-group {
+    width: 12rem;
+  }
+
+.form {
+  padding-left: 0;
+}
+}
+.fcGoogle{
+  font-size : clamp(0.7rem, 0.9vw, 50rem);
+}
+
+
+
+/* .input-groupAd{
+  width: 160%;
+} */
+
